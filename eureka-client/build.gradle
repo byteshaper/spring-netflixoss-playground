@@ -35,3 +35,10 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {  gradleVersion = "3.1" }
+
+task copyJarToDocker(type: Copy) {    
+    from "build/libs/eureka-client.jar"
+    into "docker"
+}
+
+copyJarToDocker.dependsOn build
