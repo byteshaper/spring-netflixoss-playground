@@ -17,8 +17,8 @@ hs_err_pid*
 *.iml
 local.properties
 .DS_Store 
-**/.classpath/
-**/.project/
+**/.classpath
+**/.project
 **/.settings/
 **/gradle/
 /bin/
