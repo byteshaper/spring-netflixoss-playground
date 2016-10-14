@@ -21,4 +21,4 @@ local.properties
 **/.project
 **/.settings/
 **/gradle/
-/bin/
+**/bin/

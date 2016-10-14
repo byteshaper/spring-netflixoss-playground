@@ -2,11 +2,13 @@ package com.byteshaper.netflixossplayground;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-public class NetflixossplaygroundApplication {
+@EnableEurekaServer
+public class NetflixossplaygroundServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NetflixossplaygroundApplication.class, args);
+		SpringApplication.run(NetflixossplaygroundServerApplication.class, args);
 	}
 }
